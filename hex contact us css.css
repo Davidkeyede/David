@@ -311,9 +311,10 @@ body {
 .form-info ul li {
   margin-top: .5rem;
   display: block;
-align-content: center;
-justify-content: center;
-color: rgb(34, 33, 33);
+align-content: left;
+justify-content: left;
+color:white;
+
 
 }
 
