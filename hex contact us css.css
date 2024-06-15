@@ -117,6 +117,7 @@ body {
     left: 0;
     width: 100%;
     background-color: black;
+    color:gold;
   }
 
   #nav #menu-toggle:checked ~ .menu-items {
@@ -125,7 +126,7 @@ body {
 
   #nav .menu-items h1 {
     margin: 10px 0;
-    color:gold;
+    
   }
 
   #nav .menu-items li {
