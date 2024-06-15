@@ -310,7 +310,7 @@ body {
 
 .form-info ul li {
   margin-top: .5rem;
-  display: block;
+  display: flex;
 align-content: left;
 justify-content: left;
 color:white;
