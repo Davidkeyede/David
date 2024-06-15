@@ -116,7 +116,7 @@ body {
     top: 130px;
     left: 0;
     width: 100%;
-    background-color: gold;
+    background-color: black;
   }
 
   #nav #menu-toggle:checked ~ .menu-items {
