@@ -307,7 +307,7 @@ body {
 
 .form-info ul li {
   margin-top: .5rem;
-  display: flex;
+  display: block;
 align-content: center;
 justify-content: center;
 
