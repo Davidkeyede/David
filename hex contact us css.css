@@ -100,7 +100,6 @@ body {
     margin-bottom: 2.5rem;
     font-size: 1.8rem;
     font-weight: 500;
-    color:gold;
   }
   
 }
@@ -118,7 +117,6 @@ body {
     left: 0;
     width: 100%;
     background-color: gold;
-    
   }
 
   #nav #menu-toggle:checked ~ .menu-items {
@@ -127,7 +125,6 @@ body {
 
   #nav .menu-items h1 {
     margin: 10px 0;
-    
   }
 
   #nav .menu-items li {
@@ -295,11 +292,13 @@ body {
   color: #fff;
   padding: 2rem;
   text-align: right;
+  
 }
 
 .form-info h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .form-info ul {
@@ -309,8 +308,9 @@ body {
 .form-info ul li {
   margin-top: .5rem;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+align-content: center;
+justify-content: center;
+
 }
 
 .form-info ul li i {
