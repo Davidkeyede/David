@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hex images.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <div class="header">
+          <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="hex copy.html">Home page</a></li>
+                    <li><a href="hex about us.html">About Us</a></li>
+                    <li><a href="Hex contact us.html">Contact Us</a></li>
+                    <li><a href="hex booking.html">Booking</a></li>
+                    <li><a href="hex images.html">Gallary</a></li>
+                </ul>
+                <h1 class="logo"> Hexagon</h1>
+            </div>
+            </nav>
+
+          </div>
+          </div><br><br>
+            <div id="page1"><br><br>
+              <h1><span>Take</span>
+                <span>a </span> 
+                 <span>look</span>  
+                <span>inside.</span>
+                </h1>
+            </div>
+                    <section class="gallery">
+                      <h1>Gallery:</h1>
+                      <div class="gallery-container">
+                        <img src="last/pic-1.jpg" alt="Image 1"onclick="expandImage(this)">
+                        <img src="last/pic-2.jpg" alt="Image 2"onclick="expandImage(this)">
+                        <img src="last/pic-3.jpg" alt="Image 3"onclick="expandImage(this)">
+                        <img src="last/pic-27.jpg" alt="Image 4"onclick="expandImage(this)">
+                        <img src="last/pic-5.jpg" alt="Image 5"onclick="expandImage(this)">
+                        <img src="last/pic-6.jpg" alt="Image 6"onclick="expandImage(this)">
+                        <img src="last/pic-7.jpg" alt="Image 7"onclick="expandImage(this)">
+                        <img src="last/pic-8.jpg" alt="Image 8"onclick="expandImage(this)">
+                        <img src="last/pic-20.jpg" alt="Image 9"onclick="expandImage(this)">
+                        <img src="last/pic-18.jpg" alt="Image 10"onclick="expandImage(this)">
+                        <img src="last/pic-19.jpg" alt="Image 11"onclick="expandImage(this)">
+                        <img src="last/pic-22.jpg" alt="Image 12"onclick="expandImage(this)">
+                        <img src="last/pic-24.jpg" alt="Image 13"onclick="expandImage(this)">
+                        <img src="last/pic-23.jpg" alt="Image 14"onclick="expandImage(this)">
+                        <img src="last/pic-14.jpg" alt="Image 15"onclick="expandImage(this)">
+                        <img src="last/pic-15.jpg" alt="Image 16"onclick="expandImage(this)">
+                        <img src="last/pic-16.jpg" alt="Image 17"onclick="expandImage(this)">
+                        <img src="last/pic-17.jpg" alt="Image 18"onclick="expandImage(this)">
+                        <img src="last/pic-21.jpg" alt="Image 19"onclick="expandImage(this)">
+                        <img src="last/pic-26.jpg" alt="Image 20"onclick="expandImage(this)">
+                      </div>
+                    </section>
+
+                    <div id="myModal" class="modal">
+                      <span class="close" onclick="closeModal()">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+
+
+                    <script>
+                      function expandImage(img) {
+                        var modal = document.getElementById("myModal");
+                        var modalImg = document.getElementById("img01");
+                        var captionText = document.getElementById("caption");
+                        modal.style.display = "block";
+                        modalImg.src = img.src;
+                        captionText.innerHTML = img.alt;
+                      }
+                  
+                      function closeModal() {
+                        var modal = document.getElementById("myModal");
+                        modal.style.display = "none";
+                      }
+                  
+                      window.onclick = function(event) {
+                        var modal = document.getElementById("myModal");
+                        if (event.target == modal) {
+                          modal.style.display = "none";
+                        }
+                      }
+                    </script>
+</body>
+</html>
+
+
+
+

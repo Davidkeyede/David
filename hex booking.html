@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="hex booking css.css">
+    </head>
+    <body>
+
+      <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="hex copy.html">Home page</a></li>
+                <li><a href="hex about us.html">About Us</a></li>
+                <li><a href="Hex contact us.html">Contact Us</a></li>
+                <li><a href="hex booking.html">Booking</a></li>
+                <li><a href="hex images.html">Gallary</a></li>
+            </ul>
+            <h1 class="logo"> Hexagon</h1>
+        </div>
+    </nav>
+
+
+
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div2").toggle();
+          });
+        });
+      </script>
+        <section class = "banner">
+            <h2>BOOK YOUR TABLE NOW</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>BOOKING</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select"> Day</option>
+                                <option value = "sunday">Sunday</option>
+                                <option value = "monday">Monday</option>
+                                <option value = "tuesday">Tuesday</option>
+                                <option value = "wednesday">Wednesday</option>
+                                <option value = "thursday">Thursday</option>
+                                <option value = "friday">Friday</option>
+                                <option value = "saturday">Saturday</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select"> Hour</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">11: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">13: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">15: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            
+                            <input type = "submit" value = "BOOK TABLE">
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
