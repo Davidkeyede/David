@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="hex contact us css.css">
+<script src="https://kit.fontawesome.com/7414e22221.js"></script>
+<title>Contact Us</title>
+</head>
+<body>
+  <nav id="nav" class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" id="menu-toggle">
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+      </div>
+        <ul class="menu-items">
+            <li><a href="hex copy.html">Home page</a></li>
+            <li><a href="hex about us.html">About Us</a></li>
+            <li><a href="Hex contact us.html">Contact Us</a></li>
+            <li><a href="hex booking.html">Booking</a></li>
+            <li><a href="hex images.html">Gallary</a></li>
+        </ul>
+        <h1 class="logo"> Hexagon</h1>
+        
+    </div>
+</nav>
+
+<section id="heading">
+    <div class="container heading-grid">
+      <div class="heading-wrap">
+        <h1>Get in Touch</h1>
+        <p>Do you need more information? Please contact us to find more about our products and services</p>
+      </div>
+    </div>
+</section>
+
+<section id="form-box" class="animated jackInTheBox">
+    <div class="container">
+      <div class="form-box form-box-grid">
+        <div class="form-input">
+          <h3>Send us a message</h3>
+          <form method="POST" action="send_email.php">
+            <p>
+              <label for="first_name">First name</label>
+              <input type="text" id="first_name" name="first_name" placeholder="First Name..." required>
+            </p>
+            <p>
+              <label for="last_name">Last name</label>
+              <input type="text" id="last_name" name="last_name" placeholder="Last Name..." required>
+            </p>
+            <p class="full">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="Email Here..." required>
+            </p>
+            <p class="full">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
+            </p>
+            <p class="full">
+              <button type="submit" name="submit">Send Message</button>
+            </p>
+          </form>
+        </div>
+        <div class="form-info">
+          <h3>Contact information:</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 4 Bola Oluwole Avenue, Omitoro</li>
+            <li><i class="fas fa-mobile-alt"></i> +2349121040244</li>
+            <li><i class="fas fa-envelope"></i> keyededavid@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
+
+</body>
+</html>
