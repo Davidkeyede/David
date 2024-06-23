@@ -86,7 +86,7 @@ background-size: cover;
 width: 600px;
 height: 400px;
 border-radius: 10px;
-  background-image: url(img/image-11.png);
+  background-image: url(last/image-11.png);
 }
 .button{
   float: right;
@@ -285,6 +285,8 @@ video {
   font-weight: 500;
   width: 40%;
 }
+
+
 #page1 #arrow {
   height: 250px;
   width: 250px;
@@ -409,13 +411,13 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(img/rest1.jpg);
+  background-image: url(last/rest1.jpg);
 }
 #card2 {
-  background-image: url(img/img/Screenshot\ 2024-04-11\ 075710.png);
+  background-image: url(last/img/Screenshot\ 2024-04-11\ 075710.png);
 }
 #card3 {
-  background-image: url(img/images\ \(1\).jfif);
+  background-image: url(last/images\ \(1\).jfif);
 }
 .overlay {
   height: 100%;
@@ -676,7 +678,7 @@ video {
   margin-top: 10px; 
 }
 #preloader{
-  background: #000  url(img/load\ gif.gif) center ;
+  background: #000  url(last/load\ gif.gif) center ;
   height: 100vh;
   width: 1000%;
   background-size: 1000px;
@@ -1045,7 +1047,7 @@ font-size: 14px; /* Adjust button font size */
   width: 350px;
   height: 400px;
   border-radius: 10px;
-    background-image: url(img/image-11.png);
+    background-image: url(last/image-11.png);
   }
 
   .button{
