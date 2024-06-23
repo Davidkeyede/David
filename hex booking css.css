@@ -80,7 +80,7 @@ a :hover{
 
 .banner{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/banner-img.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("last/banner-img.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,7 @@ a :hover{
     grid-template-columns: 420px 420px;
 }
 .card-img{
-    background: url("img/card-img.jpg") center/cover no-repeat;
+    background: url("last/card-img.jpg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
